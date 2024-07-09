@@ -48,6 +48,7 @@ p{
     border-radius: 8px;
     padding: 17px 25px;
     background-color: white;
+    cursor: pointer;
 }
 /* NavBar ends */
 
@@ -77,13 +78,13 @@ p{
 
 #contact-btn{
     padding: 20px;
-    margin-bottom: ;
     font-size: 20px;
     font-weight: 500;
     color: white;
     background-color: #0D1321;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* Banner ends */
 
@@ -141,4 +142,20 @@ p{
     padding: 12px 20px;
     margin-bottom: 58.5px;
     border: 1px solid #0D1321;
+    cursor: pointer;
 }
+
+.card-image{
+    margin: auto 48px;
+}
+/* Section-1 ends */
+
+/* section-2 begins */
+
+.inspiration{
+    text-align: center;
+    margin: 70px auto 0;
+    width: 1150px;
+}
+
+/* section-2 ends */
