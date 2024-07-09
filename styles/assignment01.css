@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Azeret Mono';
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+p{
+    font-size: 16px;
+    color: #0D1321;
+}
+
+/* NavBar begins */
+
+.nav-bar{
+    margin: 35px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#my-name{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#download{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    padding: 17px 25px;
+    background-color: white;
+}
+/* NavBar ends */
+
+/* Banner begins */
+
+.banner{
+    height: 655px;
+    width: 100%;
+    text-align: center;
+    background-image: url(/assets/Hero-bg.png);
+    background-position: center;
+}
+
+.banner-text{
+    padding: 30px 450px;
+}
+
+.banner-heading{
+    margin: 30px 0;
+    line-height: 70px;
+}
+
+.banner-description{
+    padding: 0 90px 35px;
+    line-height: 25px;
+}
+
+#contact-btn{
+    padding: 20px;
+    margin-bottom: ;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #0D1321;
+    border: none;
+    border-radius: 8px;
+}
+/* Banner ends */
+
+/* Section-1 begins*/
+
+.sec-1{
+    background-color: rgba(13, 19, 33, 0.02);
+    text-align: center;
+    margin: 70px auto 0;
+    width: 1150px;
+}
+
+.sec-1-heading{
+    padding-top: 80px;
+}
+
+.sec-1-para{
+    padding: 25px 150px;
+    line-height: 25px;
+}
+
+.card-container{
+    padding: 0 100px 70px;
+}
+
+.card{
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    gap: 100px;
+    text-align: left;
+    margin: 32px 0;
+}
+
+.text-container{
+    margin: auto 48px;
+}
+
+.card-title{
+    margin-top: 58.5px;
+    margin-bottom: 16px;
+    line-height: 40px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.card-description{
+    margin-bottom: 32px;
+    line-height: 25px;
+}
+
+.card-btn{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 20px;
+    margin-bottom: 58.5px;
+    border: 1px solid #0D1321;
+}
