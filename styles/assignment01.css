@@ -77,6 +77,7 @@ p{
 }
 
 #contact-btn{
+    text-decoration: none;
     padding: 20px;
     font-size: 20px;
     font-weight: 500;
@@ -170,7 +171,7 @@ p{
 
 .items{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -247,5 +248,30 @@ p{
     border: none;
 }
 /* Support section ends */
+
+/* footer begins */
+
+#footer{
+    margin-top: 70px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+#contact{
+    margin: 0 auto;
+    padding: 35px 325px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-para{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#icons{
+    display: flex;
+    gap: 24px;
+}
+/* footer ends */
 
 
