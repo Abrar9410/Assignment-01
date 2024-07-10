@@ -158,4 +158,11 @@ p{
     width: 1150px;
 }
 
+#video{
+    box-sizing: border-box;
+    border: 1px solid #0D1321;
+    border-radius: 16px;
+    padding: 32px;
+}
 /* section-2 ends */
+
