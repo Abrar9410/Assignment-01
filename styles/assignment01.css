@@ -90,7 +90,7 @@ p{
 
 /* Section-1 begins*/
 
-.sec-1{
+#sec-1{
     background-color: rgba(13, 19, 33, 0.02);
     text-align: center;
     margin: 70px auto 0;
@@ -165,4 +165,42 @@ p{
     padding: 32px;
 }
 /* section-2 ends */
+
+/* Current Target begins */
+
+.items{
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.item{
+    padding: 40px;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.item-heading{
+    margin: 24px 0;
+}
+
+.item-link{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+#html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+#css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+#js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/* Current Target ends */
+
 
