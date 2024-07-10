@@ -58,7 +58,7 @@ p{
     height: 655px;
     width: 100%;
     text-align: center;
-    background-image: url(./assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-position: center;
 }
 
@@ -207,7 +207,7 @@ p{
 /* Support section begins */
 
 #support{
-    background-image: linear-gradient(rgba(13, 19, 33, 0.9),rgba(13, 19, 33, 0.4)), url(./assets/handshake.jpg);
+    background-image: linear-gradient(rgba(13, 19, 33, 0.9),rgba(13, 19, 33, 0.4)), url(../assets/handshake.jpg);
     background-position: center;
     width: 1150px;
     height: 315px;
